@@ -1,0 +1,41 @@
+{% extends "main.njk" %}
+
+{% set pageTitle = 'Поиск локации' %}
+
+{% block content %}
+    <section class="locations">
+        <div class="locaton">
+            <div class="location__region">Алтайский край</div>
+            <div class="location__address">Туристическая база "Озеро Красилово", Косихинский район, с. Озеро-Красилово, ул. Пушкина д. 1</div>
+            <div class="location__date">
+                <label for="event-datetime">Выберите дату и время съёмки:</label>
+                <input type="datetime-local" id="event-datetime" name="event-time" value="2021-12-11T12:00"
+                min="2021-12-09T00:00" max="2022-01-09T00:00">
+            </div>
+            <div>Количество свободных зон в локации: <span class="location__count">19</span> </div>
+            <div class="button"> <a href="seat.html">Перейти к выбору зон в локации</a></div>
+        </div>
+        <div class="locaton">
+            <div class="location__region">Алтайский край</div>
+            <div class="location__address">Спа-отель "Мечта", г. Барнаул, Правобережный тракт, д. 45</div>
+            <div class="location__date">
+                <label for="event2-datetime">Выберите дату и время съёмки:</label>
+                <input type="datetime-local" id="event2-datetime" name="event-time" value="2021-12-11T12:00"
+                min="2021-12-09T00:00" max="2022-01-09T00:00">
+            </div>
+            <div>Количество свободных зон в локации: <span class="location__count">14</span></div>
+            <div class="button"> <a href="seat.html">Перейти к выбору зон в локации</a></div>
+        </div>
+        <div class="locaton">
+            <div class="location__region">Красноярский край</div>
+            <div class="location__address">Парк-отель "Чайка", Ачинский район, с. Ключи, Пионерская долина, д. 5</div>
+            <div class="location__date">
+                <label for="event3-datetime">Выберите дату и время съёмки:</label>
+                <input type="datetime-local" id="event3-datetime" name="event-time" value="2021-12-11T12:00"
+                min="2021-12-09T00:00" max="2022-01-09T00:00">
+            </div>
+            <div>Количество свободных зон в локации: <span class="location__count">22</span></div>
+            <div class="button"> <a href="seat.html">Перейти к выбору зон в локации</a></div>
+        </div>
+    </section>
+{% endblock %}

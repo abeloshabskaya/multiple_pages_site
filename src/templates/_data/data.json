@@ -1,0 +1,51 @@
+{
+    "indexNavigation": [
+        {
+            "content": "Главная страница",
+            "url": "/index.html"
+        },
+        {
+            "content": "Акции",
+            "url": "/index.html#promo"
+        },
+        {
+            "content": "Поиск",
+            "url": "/index.html#search"
+        },
+        {
+            "content": "Управление бронированием",
+            "url": "/booking.html"
+        }
+    ],
+
+    "promos": [
+        {
+            "image": "/",
+            "name": "Lorem ipsem",
+            "desc": "Lorem",
+            "button": {
+                "name": "Lorem",
+                "url": "/"
+            }
+        },
+        {
+            "image": "/",
+            "name": "Lorem",
+            "desc": "Lorem",
+            "button": {
+                "name": "Lorem",
+                "url": "/"
+            }
+        },
+        {
+            "image": "/",
+            "name": "Lorem ipsem",
+            "desc": "Lorem",
+            "button": {
+                "name": "Lorem",
+                "url": "/"
+            }
+        }
+
+    ]
+}

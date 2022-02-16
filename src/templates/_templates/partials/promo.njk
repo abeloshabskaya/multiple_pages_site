@@ -1,0 +1,12 @@
+{% for promo in promos %}
+<div class="promo__card">
+    <div class="promo__image1"></div>
+    <div class="promo__name">{{promo.name}}</div>
+    <div class="promo__desc">
+        <p>{{promo.desc}}</p>
+    </div>
+    <div class="button">
+        <a href="{{promo.button.url}}">{{promo.button.name}}</a>
+    </div>
+</div>
+{% endfor %}

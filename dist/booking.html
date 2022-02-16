@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__logo"></div>
+    <nav class="header__nav">
+        <a class="header__item" href="/index.html">Главная страница</a>
+        <a class="header__item" href="/index.html#promo">Акции</a>
+        <a class="header__item" href="/index.html#search">Поиск</a>
+        <a class="header__item" href="/booking.html">Управление бронированием</a>
+    </nav>
+</header>    <main>
+     <section>
+        <h2>Бронирование</h2>
+        <h3>Данные о заказе</h3>
+        <div class="booking__card">
+            <div class="search__item">
+                <label for="region">Регион</label>
+                <select name="regions" id="region">
+                    <option value="">-- Выберите регион из списка --</option>
+                    <option value="altay">Алтайский край</option>
+                    <option value="krasnoyarsk">Красноярский край</option>
+                </select>
+            </div>
+
+            <div class="search__item">
+                <label for="location-adress">Локация</label>
+                <select name="location-adresses" id="location-adress">
+                    <option value="">-- Выберите локацию из списка --</option>
+                    <option value="krasilovo">Туристическая база "Озеро Красилово"</option>
+                    <option value="chaika">Парк-отель "Чайка"</option>
+                </select>
+            </div>
+
+            <div class="search__item">
+                <label for="location-adress">Зоны локации</label>
+                <select name="location-adresses" id="location-adress">
+                    <option value="">-- Выберите локацию из списка --</option>
+                    <option value="krasilovo">Туристическая база "Озеро Красилово"</option>
+                    <option value="chaika">Парк-отель "Чайка"</option>
+                </select>
+            </div>
+
+
+
+            <!-- <div class="row">
+                <div class="left-column">
+                    <p class="text-input-label">Каталог выставки</p>
+                </div>
+                <div class="right-column">
+                    <input id="checkbox1" class="checkbox" type="checkbox">
+                    <label for="checkbox1" class="checkbox-label">Реклама (полный лист)</label>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="left-column">
+                    <p class="text-input-label">Путеводитель выставки</p>
+                </div>
+                <div class="right-column">
+                    <div>
+                        <input type="radio" name="r" id="r1" class="checkbox">
+                        <label for="r1" class="checkbox-label">Реклама (полный лист)</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="r" id="r2" class="checkbox">
+                        <label for="r2" class="checkbox-label">Сноска с логотипом на плане выставки</label>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="left-column">
+                    <p class="text-input-label">Планировка выставки перед входом в павильон</p>
+                </div>
+                <div class="right-column">
+                    <input id="checkbox2" class="checkbox" type="checkbox">
+                    <label for="checkbox2" class="checkbox-label">Сноска с логотипом на плане выставки</label>
+                </div>
+            </div> -->
+
+
+
+
+            <div class="search__item">
+                <label for="event-time">Дата и время съёмки</label>
+                <input type="datetime-local" id="event-time"
+                    name="event-time" value="2021-12-11T19:30"
+                    min="2021-12-02T00:00" max="2022-01-09T00:00">
+            </div>
+            <div class="search__item">
+                <label for="people-number">Количество участников</label>
+                <input type="number" id="people-number" name="people-number"
+                        min="1" max="30">
+            </div>
+            <div class="button">
+                <a href="search.html">Поиск</a>
+            </div>
+        </div>
+    </section>
+    </main>
+ <footer class="footer">
+    <div>
+        <a href="tel:+78003333030">8 (800) 333-30-30</a>
+    </div>
+        <ul class="footer__nav">
+            <li><a href="http://xxxxxx-m1.wsr.ru">Home</a></li>
+            <li><a href="http://xxxxxx-m1.wsr.ru/login">Login</a></li>
+            <li><a href="http://xxxxxx-m1.wsr.ru/signup">Sign up</a></li>
+            <li><a href="http://xxxxxx-m1.wsr.ru/contact">Contact</a></li>
+            <li><a href="http://xxxxxx-m1.wsr.ru/news">News</a></li>
+            <li><a href="http://xxxxxx-m1.wsr.ru/return">Return</a></li>
+            <li><a href="http://xxxxxx-m1.wsr.ru/feedback">Feedback</a></li>
+        </ul>
+</footer>
+
+
+</body>
+
+</html>
